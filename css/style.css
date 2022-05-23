@@ -360,6 +360,16 @@ a:hover {
     z-index: 2;
 }
 
+.adress
+{
+    margin:0;
+}
+
+.form-group
+{
+    margin-bottom:8px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -506,7 +516,14 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    margin-left: 5px;
+    margin-top: 8px;
 }
+@media screen and (max-width: 768px) {
+    .form-control {
+        width: 90%;
+    }
+  }
 
 .scrollToTop {
     width: 40px;
