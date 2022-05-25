@@ -839,7 +839,11 @@ h4 {
 .bg-presentation {
     background-image: url("../img/image-de-presentation.webp");
 }
-
+.rowbloc7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
