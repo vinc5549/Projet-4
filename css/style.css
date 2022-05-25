@@ -1053,4 +1053,7 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .imgtitle {
+        width:375px;
+    }
 }
