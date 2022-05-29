@@ -938,6 +938,8 @@ h4 {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
         float: none!important;
+        display: flex;
+        justify-content: center;
     }
     .navbar.row {
         margin-left: 0;
@@ -955,6 +957,11 @@ h4 {
         background: rgba(0, 0, 0, .05);
         text-align: left;
         width: 18%;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding-left: 10px;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
